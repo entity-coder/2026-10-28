@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/slabMinFatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/min_fat"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/slabMaxFatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/max_fat"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/slabMinSnfInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/min_snf"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/slabMaxSnfInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/max_snf"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/slabRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rate_per_litre"
+        android:inputType="numberDecimal" />
+</LinearLayout>

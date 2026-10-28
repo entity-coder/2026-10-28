@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">DairyManager</string>
+    <string name="farmer_detail_title">Farmer details</string>
+    <string name="rate_chart_title">Rate chart &amp; settings</string>
+
+    <!-- Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_farmers">Farmers</string>
+    <string name="nav_collect">Collect</string>
+    <string name="nav_sheets">Sheets</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dairy at a glance</string>
+    <string name="today_litres">Milk today</string>
+    <string name="morning_litres">Morning</string>
+    <string name="evening_litres">Evening</string>
+    <string name="farmers_today">Farmers today</string>
+    <string name="pending_payments">Pending payments</string>
+    <string name="month_litres">Milk this month</string>
+    <string name="dashboard_hint">Pending = all milk supplied so far minus all payments recorded. It is a live total, not a closed bill.</string>
+
+    <!-- Farmers -->
+    <string name="search_farmers_hint">Search name, village, phone…</string>
+    <string name="add_farmer">Add farmer</string>
+    <string name="no_farmers_found">No farmers match this search.</string>
+    <string name="farmer_name">Farmer name *</string>
+    <string name="village">Village</string>
+    <string name="phone">Phone</string>
+    <string name="bank_account">Bank account</string>
+    <string name="ifsc">IFSC</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="farmer_name_required">Farmer name is required.</string>
+    <string name="farmer_saved">Farmer saved</string>
+    <string name="active">Active</string>
+    <string name="hidden">Hidden</string>
+    <string name="edit">Edit</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="delete">Delete</string>
+    <string name="delete_farmer">Delete farmer</string>
+    <string name="delete_farmer_message">The farmer will be deleted. Farmers with milk records cannot be deleted — hide them instead.</string>
+    <string name="cannot_delete_farmer">This farmer has milk records, so hide them instead of deleting.</string>
+    <string name="farmer_deleted">Farmer deleted</string>
+
+    <!-- Farmer detail -->
+    <string name="total_litres">Total milk</string>
+    <string name="total_amount">Total amount</string>
+    <string name="total_paid">Total paid</string>
+    <string name="total_pending">Pending</string>
+    <string name="history_title">Milk history</string>
+    <string name="no_history">No milk records for this farmer yet.</string>
+
+    <!-- Collection -->
+    <string name="collect_title">Record milk collection</string>
+    <string name="pick_farmer">Farmer *</string>
+    <string name="collect_date">Date (yyyy-MM-dd) *</string>
+    <string name="shift">Shift</string>
+    <string name="litres">Litres *</string>
+    <string name="fat">Fat *</string>
+    <string name="snf">SNF *</string>
+    <string name="save_collection">Save collection</string>
+    <string name="rate_chart_button">Rate chart &amp; settings</string>
+    <string name="today_collections">Today&apos;s collections</string>
+    <string name="no_collections_today">Nothing recorded today yet.</string>
+    <string name="rate_preview_default">Enter fat and SNF to see the rate.</string>
+    <string name="collection_saved">Collection saved</string>
+    <string name="collection_invalid">Pick a farmer and enter valid date, litres, fat and SNF.</string>
+    <string name="duplicate_shift">This farmer already has a %1$s collection on %2$s.</string>
+    <string name="delete_collection">Delete this collection?</string>
+    <string name="collection_deleted">Collection deleted</string>
+
+    <!-- Sheets -->
+    <string name="sheets_title">Payment sheets</string>
+    <string name="period_start">Period start (yyyy-MM-dd)</string>
+    <string name="period_end">Period end (yyyy-MM-dd)</string>
+    <string name="load_sheet">Load sheet</string>
+    <string name="share_sheet">Share sheet (PDF)</string>
+    <string name="print_sheet">Print sheet</string>
+    <string name="sheet_empty">Load a period to see the payment sheet.</string>
+    <string name="sheet_invalid_period">Enter a valid period (start on or before end).</string>
+    <string name="record_payment">Record payment</string>
+    <string name="record">Record</string>
+    <string name="payment_amount">Amount (₹)</string>
+    <string name="payment_positive">Enter an amount greater than zero.</string>
+    <string name="payment_exceeds_pending">That is more than this farmer&apos;s pending for this sheet (%1$s).</string>
+    <string name="nothing_pending">Nothing pending for this farmer on this sheet.</string>
+    <string name="payment_recorded">Payment recorded</string>
+    <string name="sheet_failed">Could not create the sheet PDF.</string>
+
+    <!-- Rate chart -->
+    <string name="rate_chart_help">A slab matches when fat is in [min, max) and SNF is in [min, max). Readings outside every slab fall back to the default rate below. The rate is stored on each collection when it is saved, so later chart edits never rewrite history.</string>
+    <string name="dairy_name">Dairy name (shown on sheets)</string>
+    <string name="default_rate">Default rate (₹ / litre)</string>
+    <string name="save_settings">Save settings</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_invalid">Enter a dairy name and a default rate above zero.</string>
+    <string name="add_slab">Add slab</string>
+    <string name="no_slabs">No rate slabs yet — add one, or keep the default rate.</string>
+    <string name="min_fat">Min fat</string>
+    <string name="max_fat">Max fat</string>
+    <string name="min_snf">Min SNF</string>
+    <string name="max_snf">Max SNF</string>
+    <string name="rate_per_litre">Rate (₹ / litre)</string>
+    <string name="slab_invalid">Check the slab: min must be below max, and the rate must be above zero.</string>
+    <string name="slab_saved">Slab saved</string>
+    <string name="delete_slab">Delete this slab?</string>
+
+    <string-array name="shift_options">
+        <item>Morning</item>
+        <item>Evening</item>
+    </string-array>
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>UPI</item>
+        <item>Bank</item>
+        <item>Cheque</item>
+    </string-array>
+</resources>
